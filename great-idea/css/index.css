@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	padding: 10%;
+}
+
+.menu {
+	width: 100%;
+	height: 75px;
+	display: flex;
+	align-content: center;
+	margin-top: -10%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	width: 110%;
+	padding: 1%;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin: 15px;
+}
+
+
+.title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 2%;
+}
+
+.innovate {
+	font-size: 73px;
+	text-align: center;
+	padding: 2%;
+	letter-spacing: 5px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;	
+}
+
+#getstarted {
+	font-size: 15px;
+	border: 1px solid black;
+	background-color: white;
+	width: 80%;
+
+}
+
+.maintop {
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.features, .about {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 1.25;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.mainbottom {
+	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.services, .product, .vision {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.address, .phone, .email {
+	margin: 10px 10px 0px 0px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 160px;
+	margin-top: 45px;
+}
